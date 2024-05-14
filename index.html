@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dua Kolom Teks ke URL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="form-container" class="container">
+        <div class="column">
+            <textarea id="text1" placeholder="Masukkan teks di kolom 1..."></textarea>
+        </div>
+        <div class="column">
+            <textarea id="text2" placeholder="Masukkan teks di kolom 2..."></textarea>
+        </div>
+        <button onclick="generateURL()">Buat URL</button>
+        <div id="result">
+            <input type="text" id="generatedURL" readonly>
+            <button onclick="copyURL()">Salin URL</button>
+        </div>
+    </div>
+    <div id="displayTexts">
+        <div id="marqueeText"></div>
+        <button id="listenButton" onclick="speakText()">Dengarkan</button>
+        <div id="animatedText"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
