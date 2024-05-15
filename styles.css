@@ -70,7 +70,7 @@ button {
 #marqueeText span {
     display: inline-block;
     padding-left: 100%;
-    animation: initialMarquee 5s linear 1, regularMarquee 23s linear infinite 5s;
+    animation: initialMarquee 5s linear 1, regularMarquee 15s linear infinite 5s;
 }
 
 /* Animasi pertama selama 5 detik */
