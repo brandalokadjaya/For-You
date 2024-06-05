@@ -5,6 +5,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const font = urlParams.get('font');
     const color = urlParams.get('color');
 
+// Membatasi input pada textarea dengan id "text1" menjadi maksimal 17 karakter
+document.getElementById('text1').addEventListener('input', function() {
+    const maxLength = 27;
+    if (this.value.length > maxLength) {
+        this.value = this.value.slice(0, maxLength);
+        alert('Maksimal 27 karakter cok!');
+    }
+});
+    
     if (text1 || text2) {
         const displayTexts = document.getElementById('displayTexts');
         displayTexts.style.display = 'block';
