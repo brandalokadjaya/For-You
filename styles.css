@@ -150,3 +150,14 @@ button {
         margin-bottom: 10px;
     }
 }
+
+footer {
+    background-color: #000; /* Warna hitam */
+    color: #fff; /* Warna teks putih */
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Tetap di tempat saat digulir */
+    width: 100%;
+    bottom: 0;
+    font-size: 12px; /* Ukuran huruf kecil */
+        }
